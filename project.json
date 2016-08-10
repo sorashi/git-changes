@@ -1,4 +1,8 @@
 {
+  "authors": [
+  	"Sorashi"
+  ],
+  "description": "GitStatter is a tool that allows you to see total changes, insertions and deletions in a Git repository",
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable",
