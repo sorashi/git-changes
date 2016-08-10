@@ -8,7 +8,7 @@ It is a multi-platform solution since it runs on [DNX][1]
 - Download and install [DNX][1] if you haven't done that already
 - Add `dotnet.exe` to your `PATH` if you haven't used the installer (for example Linux distros don't have an installer)
 - Make an empty directory. Open command line or terminal with `git` in its `PATH`
-- Do `git init` and `git remote add origin https://github.com/Sorashi/GitStatter`
+- Do `git init` and `git remote add origin https://github.com/Sorashi/GitStatter.git`
 - Do `git pull origin master`
 - Restore NuGet packages with `dotnet restore`
 
