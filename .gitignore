@@ -1,0 +1,7 @@
+*.exe
+*.lock.*
+bin/
+obj/
+changes.txt
+insertions.txt
+deletions.txt
