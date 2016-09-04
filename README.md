@@ -8,12 +8,12 @@ It is a multi-platform solution since it runs on [DNX][1]
 - Download and install [DNX][1] if you haven't done that already
 - Add `dotnet.exe` to your `PATH` if you haven't used the installer (for example Linux distros don't have an installer)
 - Make an empty directory. Open command line or terminal with `git` in its `PATH`
-- Do `git init` and `git remote add origin https://github.com/Sorashi/GitStatter.git`
-- Do `git pull origin master`
+- Do `git clone https://github.com/Sorashi/GitStatter.git`
+- Do `cd GitStatter`
 - Restore NuGet packages with `dotnet restore`
 
 # Usage
-Do `dotnet run <directory> (--generate-output (-g))`.
+Do `dotnet run <directory> (--generate-output/-g)`.
 Examples:
 - `dotnet run "../GitTest"` writes out stats from the `GitTest` repository into the console.
 - `dotnet run "../GitTest" -g` writes out stats from the `GitTest` repository into the console and makes three files in the current directory:
