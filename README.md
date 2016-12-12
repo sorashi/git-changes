@@ -6,7 +6,7 @@ It is a multi-platform solution since it runs on [DNX][1]
 
 # First time setup
 - Download and install [DNX][1] if you haven't done that already
-- Add `dotnet.exe` to your `PATH` if you haven't used the installer (for example Linux distros don't have an installer)
+- Add `dotnet.exe` to your `PATH` if you haven't used the installer
 - Make an empty directory. Open command line or terminal with `git` in its `PATH`
 - Do `git clone https://github.com/Sorashi/GitStatter.git`
 - Do `cd GitStatter`
